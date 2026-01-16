@@ -24,3 +24,20 @@ document.getElementById('removeLastTask').addEventListener('click',function(){
     let taskList = document.getElementById('taskList')
     taskList.lastElementChild.remove()
 })
+
+document.getElementById("clickMeButton").addEventListener('mouseover',function(){
+    alert('chaicode')
+
+})
+document.getElementById("teaList").addEventListener('click',function(event){
+   if(event.target&& event.target.matches('.teaItem')){
+    alert("You selected :"+ event.target.textContent)
+ }
+})
+
+document.getElementById("feedbackForm").addEventListener('submit', function(event){
+    event.preventDefault();
+    let feedback = document.getElementById("feedbackInput")
+    l
+})
+
