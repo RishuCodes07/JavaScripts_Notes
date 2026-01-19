@@ -11,5 +11,6 @@
  let closure= close();
  console.log(closure())
  let change = function(){
-    console.log("Find the status")
+    console.log('Find the status')
  }
+ console.log(change())
